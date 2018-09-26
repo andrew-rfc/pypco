@@ -1,4 +1,4 @@
-"""Models for PCO people.
+"""Models for PCO services.
 
 To add additional models, simply add additional classes
 subclassing the ServicesModel class.
@@ -11,7 +11,7 @@ from .base_model import BaseModel
 # The base people model
 class ServicesModel(BaseModel): pass
 
-# People models
+# Services models
 class Arrangement(ServicesModel): ENDPOINT_NAME='arrangements'
 class Attachment(ServicesModel): ENDPOINT_NAME='attachments'
 class AttachmentActivity(ServicesModel): ENDPOINT_NAME='attachment_activities'
